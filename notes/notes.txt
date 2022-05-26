@@ -1,0 +1,73 @@
+
+
+
+html 
+body 
+
+display: flex 
+
+styles 
+    :hov 
+        :active
+        :focus 
+        :focus-within
+        :target
+        :hover 
+        :visited 
+        :focus-visible 
+
+classes 
+    element.style {}
+    body {}
+    body, dd, dl, figure {} 
+    *, :after, :before {}
+    :root {} 
+    html {} 
+
+Event Listeners 
+    DOMContentLoaded 
+    beforeunload 
+    blur 
+    click 
+    copy
+    cut 
+    dblclick 
+    error 
+    input 
+    keydown
+    keyup 
+    load 
+    message
+    mousedown
+    mousemove
+    mouseup 
+    mousewheel 
+    onmessage
+    pagehide
+    pageshow
+    paste
+    popstate
+    resize
+    scroll 
+    selectionchange
+    selectionstart
+    submit 
+    touchcancel 
+    touchend
+    touchmove
+    touhstart
+    unload
+    visibilitychange
+
+
+
+    font-sze: 
+    font-family: SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+    min-width 
+    color 
+    background-color 
+    box-sizing: inherit 
+    display: block 
+
+Other Notes: 
+• https://web.dev/cls/ 
