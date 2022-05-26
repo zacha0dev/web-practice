@@ -1,0 +1,19 @@
+html {
+  
+}
+.one {
+  background-color: green;
+}
+p.one {
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.two {
+  background-color: aqua;
+}
+
+.three {
+  background-color: aquamarine;
+}
