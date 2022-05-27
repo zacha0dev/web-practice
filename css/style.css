@@ -1,20 +1,108 @@
-html {
+body, html {
+  height:100%;
+  margin: 0;
   
 }
-.one {
-  background-color: green;
+
+* {
+  box-sizing: border-box;
 }
-p.one {
-  color: white;
+
+.wrap {
+  height: 100%;
+}
+
+body {
+  overflow: hidden; 
+  background-color: #235292;
+  
+}
+
+.nav-bar-area {
+  height: 75px;
+  width: 100%;
+  background-color: #2B2B2B;
+}
+
+.focus-content {
+  margin: 0px 50px 0px 50px;
+  height: 100%;
+}
+
+.nav-bar-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item {
+  height: 100%;
+  width: 100px;
+}
+
+.nav-bar-content {
+
+}
+
+.nav-item-1 {
+  flex-grow: 0;
+}
+
+.nav-item-2 {
+  flex-grow: 1;
+}
+
+.nav-item-3 {
+  background-color: blue;
+  flex-grow: 2;
+}
+
+.icon-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
   text-align: center;
+  
+}
+
+.nav-icon {
+  margin: auto;
+  display: block;
+}
+
+.nav-links {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  margin: 0px 10px 0px 10px;
+  width: 100px; 
   height: 100px;
+  align-items: baseline;
+  vertical-align: middle;
+  
 }
-
-.two {
-  background-color: aqua;
+.flex-item-1 {
+  background-color:antiquewhite
 }
-
-.three {
-  background-color: aquamarine;
+.flex-item-2 {
+  background-color: burlywood
+}
+.flex-item-3 {
+  background-color: aquamarine
 }
 

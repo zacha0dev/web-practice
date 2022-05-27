@@ -8,35 +8,39 @@
 		<link rel="icon" href="./icon/icon_top-tab.png">
 	</head> 
 	<body>
-		<div class="call-to-action">Banner</div>
-		<div id="headerArea" class="header">
-			<div id="headerRegion" >
-				<div id="headerMain" class="">
-					<div id="cookieBanner" class=""></div>
-					<header class="siteHeader">
-						<div class="focusContainer">
-							<div class="contentContainer">
-								<div class="logoContatiner"></div>
-								<div class="nextContainer"></div>
-								<nav>
-									<ul>
-										<a></a>
-										<a></a>
-										<a></a>
-									</ul>
-								</nav>
-								<div class="menuActionsContainer">
-									<div class="menuLogoContainer"></div>
-									<div class="searchLogo"></div>
-									<div class="shoppingCart"></div>
-								</div>
+		<script>
+			window.addEventListener("keydown", function(e) {
+				// space, page up, page down and arrow keys:
+				if([32, 33, 34, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+					e.preventDefault();
+				}
+			}, false);
+		</script>
+		<div class="wrap"> 
+			<div class="nav-bar-area">
+				<div class="focus-content">
+					<div class="nav-bar-content">
+						<div class="nav-item nav-item-1">
+							<div class="icon-wrapper">
+								<img class="nav-icon" src="./icon/icon-smiley.png">
 							</div>
 						</div>
-					</header>
+						<div class="nav-item nav-item-2">
+							<div>
+
+							</div>
+						</div>
+						<div class="nav-item nav-item-3">
+							<div class="links-wrapper">
+								<ul class="nav-links">
+									<li>Home</li>
+									<li>Azure Networking</li>
+								</ul>>
+							</div>
+						<div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<main></main>
-		<div class="footerArea"></div>
 	</body>
 </html>
